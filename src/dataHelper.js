@@ -230,6 +230,23 @@ const web=[
 		image:'spaced-repetition.png'
 	},
 	{
+		title:'BuddyUp',
+		description:'An app for making friends',
+		status:'Live Demo',
+		stack:[
+			'HTML5',
+			'CSS',
+			'Javascript',
+			'Reactjs',
+			'Nodejs',
+			'PostgreSQL',
+			'Heroku',
+			'Vercel'
+		],
+		link:'https://buddyup-client.vercel.app/',
+		image:'buddyup.png'
+	},
+	{
 		title:'Code Examples',
 		description:'Various code example work for demonstration purposes.',
 		status:'Under Development',
