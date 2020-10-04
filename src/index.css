@@ -1,13 +1,130 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@font-face{
+    font-family:'3_thehard_way_rmxfenotype';
+    src: url('fonts/3_thehard_way/3_thehard_way_rmxfenotype-webfont.woff2') format('woff2'),
+         url('fonts/3_thehard_way/3_thehard_way_rmxfenotype-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+/*---------- # Body ------------------------------------------*/
+body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #fff;
+	overflow: hidden;
+	overflow-y: auto;
+}
+/*---------- # Root ------------------------------------------*/
+#root{
+	position: absolute;
+	display: block;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+/*---------- # Background Image ------------------------------*/
+#background-image-container{
+	position: fixed;
+	display: block;
+	margin: 0;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+#background-image{
+	position: absolute;
+	display: block;
+	margin: 0;
+	top:-50px;
+	left:-50px;
+	height: 110%;
+	width: 110%;
+	background-color: #000;
+	background-image: url('images/ui/body-background-image.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: unset;
+	background-size: 100% 100%;
+}
+/*---------- # Page Fade -------------------------------------*/
+#page-fade{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	z-index: 99;
+}
+/*---------- # Main ------------------------------------------*/
+main{
+	position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 135px 0px 0px 0px;
+}
+/*---------- # Headings --------------------------------------*/
+h1, h2, h3, h4, h5, h6{
+  	font-family: '3_thehard_way_rmxfenotype';
+  	line-height: 2;
+}
+/*---------- # Section ---------------------------------------*/
+section{
+  	width: 100%;
+}
+/*---------- # .group Class Elements -------------------------*/
+.group{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+/* Desktop CSS */
+@media(min-width:700px){
+	.group{
+		flex-direction: row;
+	}
+}
+/*---------- # .item Class Elements --------------------------*/
+.item{
+	flex: 1;
+	margin: 10px;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: -4px 5px 8px #000;
+	padding-bottom: 10px;
+	color: #000;
+	text-align: center;
+}
+/*---------- # .item Class Elements Content ------------------*/
+.item img{
+  	width: 100%;
+}
+.item h2{
+	margin-top: 10px;
+}
+.item h3{
+	margin-top: 30px;
+}
+.item-description{
+  	margin: 10px 10px 0 10px;
+  	text-align: left;
+}
+.item-description p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
 }

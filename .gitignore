@@ -18,6 +18,17 @@
 .env.test.local
 .env.production.local
 
+# Environment Variables
+.env
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
+
+# VSCode
+/.vscode
+
+#UI Build Files
+/ui-build-files

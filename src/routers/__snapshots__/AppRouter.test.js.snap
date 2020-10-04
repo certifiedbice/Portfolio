@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    id="background-image-container"
+  >
+    <div
+      id="background-image"
+    />
+  </div>,
+  <div
+    id="landing-container"
+  >
+    <div
+      id="portrait-overlay"
+    />
+    <div
+      id="landing-message"
+    >
+      Uncompromisingly different
+    </div>
+    <div
+      id="proceed-message"
+    >
+      Click or tap somewhere...
+    </div>
+  </div>,
+  <div
+    id="page-fade"
+  />,
+]
+`;

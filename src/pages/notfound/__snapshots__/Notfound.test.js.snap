@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    id="background-image"
+  />,
+  <div
+    id="not-found-container"
+  >
+    <div
+      id="not-found-message"
+    >
+      <h2>
+        404 - Not Found
+      </h2>
+    </div>
+    <div
+      id="back-to-home-message"
+    >
+      Click or tap somewhere...
+    </div>
+  </div>,
+  <div
+    id="page-fade"
+  />,
+]
+`;

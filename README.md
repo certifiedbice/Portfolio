@@ -1,3 +1,17 @@
+#Bice.rocks
+
+# About the project
+
+The professional portfolio of Bice.
+
+![Bice.rocks Logo](http://bice.rocks/bice.rocks-og-preview.png)
+
+## Live Site:
+### http://bice.rocks
+
+## GitHub Client Repo:
+### 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

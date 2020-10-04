@@ -1,0 +1,52 @@
+main{
+	width: 100%;
+}
+.resume-item{
+	padding: 10px;
+	text-align: left;
+}
+.resume-head{
+	text-align: center;
+}
+.resume-head h2{
+	margin-bottom: 10px;
+}
+.resume-item h3{
+	margin: 0;
+}
+.resume-item h4{
+	display: inline;
+	margin: 0;
+	font-size: 12px;
+}
+.resume-item hr{
+	border: 1px solid #000;
+}
+.resume-item p{
+	margin-bottom: 10px;
+}
+.resume-item p span{
+	font-family: '3_thehard_way_rmxfenotype';
+	font-size: 12px;
+  	line-height: 2;
+}
+.resume-item ul{
+	margin: 20px 0 0 50px;
+	list-style: circle;
+}
+.resume-item li{
+	margin-bottom: 10px;
+}
+.resume-item-element{
+	margin-top: 40px;
+}
+#resume-download-link{
+	display: inline-block;
+	margin-bottom: 25px;
+	color: #f00;
+	font-weight: 700;
+	text-decoration: none;
+}
+#resume-download-link:visited{
+	color: #f00;
+}

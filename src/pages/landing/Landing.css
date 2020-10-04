@@ -1,0 +1,45 @@
+#landing-container{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	height: 100%;
+	width: 100%;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+#portrait-overlay{
+	flex: 1;
+	padding-top: 100%;
+	background-color: transparent;
+	background-image: url('../../images/ui/grunge-portrait.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: unset;
+	background-size: 100%;
+	opacity: .8;
+}
+#landing-message{
+	position: relative;
+	flex: 1;
+	font-family: '3_thehard_way_rmxfenotype';
+	font-size: 18px;
+  	line-height: 2;
+	color: #fff;
+}
+#proceed-message{
+	position: relative;
+	flex: 1;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+/* Desktop CSS */
+@media(min-width:991px){
+#portrait-overlay{
+	padding-top: 30%;
+	background-size: auto;
+}
+#landing-message{
+	font-size: 24px;
+}
+}

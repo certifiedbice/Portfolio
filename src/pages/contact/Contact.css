@@ -1,0 +1,149 @@
+/*---------- # Contact ---------------------------------------*/
+.contact-text-group{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.contact-text{
+	flex: 3 calc(33.3%);
+	padding: 20px 0 0 0;
+	background-color: transparent;
+	box-shadow: none;
+	font-family: '3_thehard_way_rmxfenotype';
+	font-size: 66px;
+	line-height:2;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+	text-shadow: 2px 2px 4px #000;
+}
+/* Desktop CSS */
+@media(min-width:700px){
+.contact-text{
+	padding: 50px 0 0 0;
+	font-size: 132px;
+}
+}
+#contact-button{
+	color: #666;
+	cursor: pointer;
+}
+#contact-button:hover{
+	color: #222;
+	text-shadow: 2px 2px 4px #fff;
+}
+#contact-social-icon-links-container{
+	background-color: transparent;
+	box-shadow: none;
+	text-align: center;
+}
+.contact-social-icon-link{
+  	cursor: pointer;
+}
+.contact-social-icon-image{
+	max-height: 500px;
+	max-width: 500px;
+}
+#contact-overlay{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 99;
+	opacity: 0.0;
+}
+#contact-form-container{
+	position: relative;
+	flex: 1;
+	align-self: center;
+	margin: auto;
+	max-width: 90%;
+	background-color: #fff;
+	background: rgba(255,255,255, 1);
+	border-radius: 10px;
+	padding: 10px;
+	overflow: hidden;
+}
+#contact-form-elements-container{
+	display: flex;
+	flex-direction: column;
+	max-width: 99%;
+}
+#contact-form-elements-container *{
+	flex: 1;
+	align-self: center;
+	width: 98%;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 10px;
+}
+/* Desktop CSS */
+@media(min-width:700px){
+#contact-form-elements-container *{
+	width: 100%;
+}
+}
+#contact-form-elements-container form{
+  	border: none;
+}
+#contact-form-elements-container legend{
+	border: none;
+	padding-left: 25px;
+	text-align: center;
+	line-height: 2;
+	font-family: '3_thehard_way_rmxfenotype';
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+#contact-form-elements-container label{
+  	border: none;
+}
+#contact-form-elements-container input, textarea{
+	margin-bottom: 10px;
+	box-shadow: inset 0px 0px 5px #333;
+	-moz-box-shadow: inset 0px 0px 5px #333;
+	-webkit-box-shadow: inset 0px 0px 5px #333;
+}
+#contact-form-submit-button{
+	cursor: pointer;
+}
+#contact-form-status{
+	position: relative;
+	/* display: none; */
+	display: flex;
+	justify-content: center;
+	/* flex:1; */
+	/* flex-direction: column; */
+	align-self: center;
+	margin-top: 20px;
+	max-width: 99%;
+	padding: 5px;
+	font-family: '3_thehard_way_rmxfenotype';
+	font-size: 20px;
+	line-height:2;
+	text-align: center;
+	color: #0f0;
+}
+#contactHideBtn{
+	position: absolute;
+	top: 9px;
+	right: 10px;
+	height: 15px;
+	width: 26px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 7px 0 5px 0;
+	text-align: center;
+	color: #000;
+	cursor: pointer;
+}
+#contactHideBtn:hover{
+	background-color: #000;
+	color: #fff;
+}

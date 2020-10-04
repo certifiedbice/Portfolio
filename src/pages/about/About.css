@@ -1,0 +1,26 @@
+/*---------- # About -----------------------------------------*/
+#about h2{
+  background-color: #777;
+  color: #fff;
+}
+#about-intro{
+  padding-top: 8px;
+  font-family: '3_thehard_way_rmxfenotype';
+  text-align: center;
+  font-size: 18pt;
+  line-height: 2;
+}
+#walnut-image{
+	display: inline-block;
+	height: 120px;
+	width: 161px;
+}
+.p-bold{
+	font-weight: bold;
+}
+.toolbox-item{
+	flex: 1 1 calc(33.33% - 20px);
+	align-self: center;
+	padding: 10px;
+	font-weight: 700;
+}

@@ -1,0 +1,571 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    id="background-image-container"
+  >
+    <div
+      id="background-image"
+    />
+  </div>,
+  <main>
+    <section
+      id="portfolio"
+    >
+      <div
+        className="group"
+      >
+        <div
+          className="item"
+        >
+          <h3>
+            Web Design & Development
+          </h3>
+        </div>
+      </div>
+      <div
+        className="group"
+      >
+        <div
+          className="item gallery"
+        >
+          <a
+            href="http://felonydiscrimination.org.jpg"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="felonydiscrimination.org"
+              src="felonydiscrimination.org.png"
+            />
+          </a>
+          <h3>
+            felonydiscrimination.org
+          </h3>
+          <div
+            className="item-description"
+          >
+            Combating the rampant discrimination against persons with a felony history.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <a
+            href="http://evaluable.net"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="evaluable.net"
+              src="evaluable.net.png"
+            />
+          </a>
+          <h3>
+            evaluable.net
+          </h3>
+          <div
+            className="item-description"
+          >
+            Improving hiring practices and job hunting with tools and accountability.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <a
+            href="http://camasforcannabis.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="camasforcannabis.com"
+              src="camasforcannabis.com.png"
+            />
+          </a>
+          <h3>
+            camasforcannabis.com
+          </h3>
+          <div
+            className="item-description"
+          >
+            Camas For Cannabis Access, Initiative Measure No. 1
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <a
+            href="http://honeybroux.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="honeybroux.com"
+              src="honeybroux.com.png"
+            />
+          </a>
+          <h3>
+            honeybroux.com
+          </h3>
+          <div
+            className="item-description"
+          >
+            Southern Louisiana’s first Meadery.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <a
+            href="http://certifiedbice.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="certifiedbice.com"
+              src="certifiedbice.com.png"
+            />
+          </a>
+          <h3>
+            certifiedbice.com
+          </h3>
+          <div
+            className="item-description"
+          >
+            The platform, incubator, and launchpad of Bice.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <a
+            href="http://bice.blog"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="bice.blog"
+              src="bice.blog.png"
+            />
+          </a>
+          <h3>
+            bice.blog
+          </h3>
+          <div
+            className="item-description"
+          >
+            The blog of Bice.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <a
+            href="http://bice.rocks"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="bice.rocks"
+              src="bice.rocks.png"
+            />
+          </a>
+          <h3>
+            bice.rocks
+          </h3>
+          <div
+            className="item-description"
+          >
+            The professional portfolio of Bice.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <a
+            href="https://github.com/certifiedbice/Sudoku"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Sudoku"
+              src="sudoku.bice.rocks.png"
+            />
+          </a>
+          <h3>
+            Sudoku
+          </h3>
+          <div
+            className="item-description"
+          >
+            Vanilla Javascript Sudoku Generator.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <a
+            href="https://github.com/certifiedbice/petful-client"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Petful Pet Adoption App"
+              src="petful.png"
+            />
+          </a>
+          <h3>
+            Petful Pet Adoption App
+          </h3>
+          <div
+            className="item-description"
+          >
+            FIFO pet adoption app for demonstration purposes.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <a
+            href="https://github.com/certifiedbice/spaced-repetition-client"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Spaced Repetition Language Learning App"
+              src="spaced-repetition.png"
+            />
+          </a>
+          <h3>
+            Spaced Repetition Language Learning App
+          </h3>
+          <div
+            className="item-description"
+          >
+            Singly linked list spaced repetition learning app for demonstration purposes.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <a
+            href="http://code-examples.bice.rocks"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Code Examples"
+              src="code-examples.bice.rocks.png"
+            />
+          </a>
+          <h3>
+            Code Examples
+          </h3>
+          <div
+            className="item-description"
+          >
+            Various code example work for demonstration purposes.
+          </div>
+        </div>
+      </div>
+      <div
+        className="group"
+      >
+        <div
+          className="item"
+        >
+          <h3>
+            Art & Design
+          </h3>
+        </div>
+      </div>
+      <div
+        className="group"
+      >
+        <div
+          className="item gallery"
+        >
+          <img
+            alt="Fuegon Spirits Poster 01"
+            src="fuegon-poster-01.jpg"
+          />
+          <h3>
+            Fuegon Spirits Poster 01
+          </h3>
+          <div
+            className="item-description"
+          >
+            Graphic Design employing a 3D model for the purposes of marketing material.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <img
+            alt="Fuegon Spirits Poster 02"
+            src="fuegon-poster-02.jpg"
+          />
+          <h3>
+            Fuegon Spirits Poster 02
+          </h3>
+          <div
+            className="item-description"
+          >
+            Graphic Design employing a 3D model for the purposes of marketing material.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <a
+            href="fuegon-commercial.mp4"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Fuegon Spirits Commercial"
+              src="fuegon-commercial.jpg"
+            />
+          </a>
+          <h3>
+            Fuegon Spirits Commercial
+          </h3>
+          <div
+            className="item-description"
+          >
+            A complete work including Graphic Design, 3D Modeling & Animation, Video & Audio Production for the purposes of marketing material.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <img
+            alt="Hang in there baby"
+            src="hang-in-there-baby.jpg"
+          />
+          <h3>
+            Hang in there baby
+          </h3>
+          <div
+            className="item-description"
+          >
+            Digital illustration using Photoshop & Illustrator.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <img
+            alt="Porpkist Dolphin"
+            src="porpkist-dolphin.jpg"
+          />
+          <h3>
+            Porpkist Dolphin
+          </h3>
+          <div
+            className="item-description"
+          >
+            Digital illustration using Illustrator.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <img
+            alt="Unknown Female"
+            src="unknown-female-figure-2019.jpg"
+          />
+          <h3>
+            Unknown Female
+          </h3>
+          <div
+            className="item-description"
+          >
+            Ball point pen on paper, preliminary concept for a series I will be completing in the future.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <img
+            alt="Angel on the steps"
+            src="angel-on-the-steps-of-the-pantheon-2019.jpg"
+          />
+          <h3>
+            Angel on the steps
+          </h3>
+          <div
+            className="item-description"
+          >
+            Ball point pen on paper.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>,
+  <header
+    id="site-header"
+  >
+    <div
+      id="site-info"
+    >
+      <h1
+        id="site-title"
+      >
+        Portfolio of Bice
+      </h1>
+      <div
+        id="site-description"
+      >
+        My various projects in all their variousness.
+      </div>
+      <nav>
+        <ul
+          id="primary-menu"
+        >
+          <li>
+            <a
+              href="/home"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/about"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="/contact"
+            >
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="/portfolio"
+            >
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a
+              href="/resume"
+            >
+              Resume
+            </a>
+          </li>
+          <li>
+            <a
+              href="/services"
+            >
+              Services
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>,
+  <footer
+    id="site-footer"
+  >
+    Bice - 2020
+    <div
+      id="footer-links-container"
+    >
+      <a
+        className="footer-social-icon-link"
+        href="https://www.facebook.com/certifiedbice"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Facebook"
+          className="footer-social-icons-image"
+          src="facebook.png"
+        />
+      </a>
+      <a
+        className="footer-social-icon-link"
+        href="https://github.com/certifiedbice"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="GitHub"
+          className="footer-social-icons-image"
+          src="github.png"
+        />
+      </a>
+      <a
+        className="footer-social-icon-link"
+        href="https://www.instagram.com/certifiedbice"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Instagram"
+          className="footer-social-icons-image"
+          src="instagram.png"
+        />
+      </a>
+      <a
+        className="footer-social-icon-link"
+        href="https://www.hackerrank.com/certifiedbice"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="HackerRank"
+          className="footer-social-icons-image"
+          src="hackerrank.png"
+        />
+      </a>
+      <a
+        className="footer-social-icon-link"
+        href="https://www.linkedin.com/in/certifiedbice"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="LinkedIn"
+          className="footer-social-icons-image"
+          src="linkedin.png"
+        />
+      </a>
+      <a
+        className="footer-social-icon-link"
+        href="https://twitter.com/certifiedbice"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Twitter"
+          className="footer-social-icons-image"
+          src="twitter.png"
+        />
+      </a>
+      <a
+        className="footer-social-icon-link"
+        href="https://www.youtube.com/channel/UCEITFHDFDtvTIKFbUhG_E9w"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="YouTube"
+          className="footer-social-icons-image"
+          src="youtube.png"
+        />
+      </a>
+    </div>
+  </footer>,
+  <div
+    id="page-fade"
+  />,
+]
+`;

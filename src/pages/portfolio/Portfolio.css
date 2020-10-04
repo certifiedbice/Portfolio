@@ -1,0 +1,10 @@
+.gallery{
+	flex: 1 calc(25%);
+	align-items: stretch;
+	/* align-self: center; */
+}
+@media(min-width:700px){
+.gallery{
+	max-width: 32.5%;
+}
+}

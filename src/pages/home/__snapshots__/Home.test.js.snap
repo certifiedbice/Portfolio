@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    id="background-image-container"
+  >
+    <div
+      id="background-image"
+    />
+  </div>,
+  <main>
+    <section
+      id="home"
+    >
+      <div
+        className="group"
+      >
+        <div
+          className="item"
+        >
+          <img
+            alt="Hello I'm Bice"
+            src="jhtm01.jpg"
+          />
+          <h2>
+            Hello I'm Bice
+          </h2>
+          <div
+            className="item-description"
+          >
+            <p>
+              I am a web developer with an industry history.
+            </p>
+            <p>
+              I have a wide spread depth of knowledge in many areas of development and design.
+            </p>
+            <p>
+              I began designing websites in 1998 and over the years have progressed into development.
+            </p>
+          </div>
+        </div>
+        <div
+          className="item"
+        >
+          <img
+            alt="I currently reside in Westminister Colorado"
+            src="jhtm02.jpg"
+          />
+          <h2>
+            I currently reside in Denver CO
+          </h2>
+          <div
+            className="item-description"
+          >
+            <p>
+              I have worked around the country as a professional consultant for many years.
+            </p>
+            <p>
+              Much of that time was spent in the Silicon Valley back in the glory days of the early tech industry.
+            </p>
+          </div>
+        </div>
+        <div
+          className="item"
+        >
+          <img
+            alt="My area of expertise"
+            src="jhtm03.jpg"
+          />
+          <h2>
+            My area of expertise
+          </h2>
+          <div
+            className="item-description"
+          >
+            <p>
+              I have extensive experience and knowledge in most areas of art, design and development.
+            </p>
+            <p>
+              I have solid experience in server administration, am a Cisco Certified Entry Network Technician, and hold a CompTIA A+ certification as well.
+            </p>
+            <p>
+              I have years of experience in many areas of web design and development, working with HTML, CSS, Javascript, PHP and more.
+            </p>
+          </div>
+        </div>
+        <div
+          className="item"
+        >
+          <img
+            alt="Why consider me"
+            src="jhtm04.jpg"
+          />
+          <h2>
+            Why consider me
+          </h2>
+          <div
+            className="item-description"
+          >
+            <p>
+              Aside from my large variety of skills, I bring a proven resourcefulness that can only be gained through experience.
+            </p>
+            <p>
+              Skills can be learned quickly in today's world, but a well rounded amount of experience is the only thing that is going to ensure those skills are applied effectively.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>,
+  <header
+    id="site-header"
+  >
+    <div
+      id="site-info"
+    >
+      <h1
+        id="site-title"
+      >
+        Portfolio of Bice
+      </h1>
+      <div
+        id="site-description"
+      >
+        My various projects in all their variousness.
+      </div>
+      <nav>
+        <ul
+          id="primary-menu"
+        >
+          <li>
+            <a
+              href="/home"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/about"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="/contact"
+            >
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="/portfolio"
+            >
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a
+              href="/resume"
+            >
+              Resume
+            </a>
+          </li>
+          <li>
+            <a
+              href="/services"
+            >
+              Services
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>,
+  <footer
+    id="site-footer"
+  >
+    Bice - 2020
+    <div
+      id="footer-links-container"
+    >
+      <a
+        className="footer-social-icon-link"
+        href="https://www.facebook.com/certifiedbice"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Facebook"
+          className="footer-social-icons-image"
+          src="facebook.png"
+        />
+      </a>
+      <a
+        className="footer-social-icon-link"
+        href="https://github.com/certifiedbice"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="GitHub"
+          className="footer-social-icons-image"
+          src="github.png"
+        />
+      </a>
+      <a
+        className="footer-social-icon-link"
+        href="https://www.instagram.com/certifiedbice"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Instagram"
+          className="footer-social-icons-image"
+          src="instagram.png"
+        />
+      </a>
+      <a
+        className="footer-social-icon-link"
+        href="https://www.hackerrank.com/certifiedbice"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="HackerRank"
+          className="footer-social-icons-image"
+          src="hackerrank.png"
+        />
+      </a>
+      <a
+        className="footer-social-icon-link"
+        href="https://www.linkedin.com/in/certifiedbice"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="LinkedIn"
+          className="footer-social-icons-image"
+          src="linkedin.png"
+        />
+      </a>
+      <a
+        className="footer-social-icon-link"
+        href="https://twitter.com/certifiedbice"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Twitter"
+          className="footer-social-icons-image"
+          src="twitter.png"
+        />
+      </a>
+      <a
+        className="footer-social-icon-link"
+        href="https://www.youtube.com/channel/UCEITFHDFDtvTIKFbUhG_E9w"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="YouTube"
+          className="footer-social-icons-image"
+          src="youtube.png"
+        />
+      </a>
+    </div>
+  </footer>,
+  <div
+    id="page-fade"
+  />,
+]
+`;
