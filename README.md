@@ -57,10 +57,15 @@ Ideally, I want to employ my talents in an environment where I can be challenged
 Email: certifiedbice@gmail.com
 
 Facebook - https://www.facebook.com/certifiedbice
+
 HackerRank - https://www.hackerrank.com/certifiedbice
+
 Instagram - https://www.instagram.com/certifiedbice
+
 LinkedIn - https://www.linkedin.com/in/certifiedbice
+
 Twitter - https://twitter.com/certifiedbice
+
 YouTube - https://www.youtube.com/channel/UCEITFHDFDtvTIKFbUhG_E9w/
 
 ## Portfolio
@@ -99,11 +104,11 @@ I am a web developer with rich expertise in the field of I.T. and marketing and 
 
 #### FelonyDiscrimination.org
 
-Web based application developed to fight social injustice and affect real change in legislation.
+* Web based application developed to fight social injustice and affect real change in legislation.
 
 #### CamasForCannabis.com
 
-Wordpress based application built to provide information to the people of Camas WA so that they can see the benefits of the proposed change in legislation on the next ballot.
+* Wordpress based application built to provide information to the people of Camas WA so that they can see the benefits of the proposed change in legislation on the next ballot.
 
 ### Education
 
@@ -119,7 +124,10 @@ Wordpress based application built to provide information to the people of Camas 
 #### CompTIA
 * A+
 
+#### Academy of Art University San Francisco
+* Digital & Fine Art
 ### Relevant experience
+
 #### Camas ACA Political Action Committee
 * 02/2020 – Current
 * Web Developer
