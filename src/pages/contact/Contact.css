@@ -6,22 +6,23 @@
 }
 .contact-text{
 	flex: 3 calc(33.3%);
-	padding: 20px 0 0 0;
+	margin: 10px;
 	background-color: transparent;
 	box-shadow: none;
+	padding: 20px 0 0 0;
+	vertical-align: middle;
+	text-align: center;
 	font-family: '3_thehard_way_rmxfenotype';
 	font-size: 66px;
 	line-height:2;
-	vertical-align: middle;
-	text-align: center;
 	color: #fff;
 	text-shadow: 2px 2px 4px #000;
 }
 /* Desktop CSS */
 @media(min-width:700px){
 .contact-text{
-	padding: 50px 0 0 0;
-	font-size: 132px;
+	padding: 20px 0 0 0;
+	font-size: 42px;
 }
 }
 #contact-button{
@@ -43,6 +44,13 @@
 .contact-social-icon-image{
 	max-height: 500px;
 	max-width: 500px;
+}
+/* Desktop CSS */
+@media(min-width:700px){
+.contact-social-icon-image{
+	max-height: 100px;
+	max-width: 100px;
+}
 }
 #contact-overlay{
 	display: none;

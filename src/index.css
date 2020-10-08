@@ -82,6 +82,10 @@ h1, h2, h3, h4, h5, h6{
 section{
   	width: 100%;
 }
+/*---------- # Paragraph -------------------------------------*/
+p{
+  	line-height: 2;
+}
 /*---------- # .group Class Elements -------------------------*/
 .group{
 	width: 100%;
@@ -92,9 +96,9 @@ section{
 }
 /* Desktop CSS */
 @media(min-width:700px){
-	.group{
-		flex-direction: row;
-	}
+.group{
+	flex-direction: row;
+}
 }
 /*---------- # .item Class Elements --------------------------*/
 .item{
@@ -108,18 +112,24 @@ section{
 	color: #000;
 	text-align: center;
 }
+/* Desktop CSS */
+@media(min-width:700px){
+.item{
+	margin: 60px;
+}
+}
 /*---------- # .item Class Elements Content ------------------*/
 .item img{
   	width: 100%;
 }
 .item h2{
-	margin-top: 10px;
+	margin-top: 30px;
 }
 .item h3{
 	margin-top: 30px;
 }
 .item-description{
-  	margin: 10px 10px 0 10px;
+  	margin: 20px;
   	text-align: left;
 }
 .item-description p{

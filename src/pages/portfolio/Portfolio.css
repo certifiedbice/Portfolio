@@ -1,10 +1,31 @@
 .gallery{
 	flex: 1 calc(25%);
 	align-items: stretch;
-	/* align-self: center; */
 }
 @media(min-width:700px){
 .gallery{
 	max-width: 32.5%;
 }
+}
+.item-status{
+	margin: 20px;
+}
+.item-status span{
+	font-weight: 700;
+}
+.item-stack{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: 20px;
+}
+.item-stack-title{
+	margin: 5px;
+	font-weight: 700;
+}
+.item-stack-item{
+	margin: 5px;
+}
+.item-description{
+	line-height: 2;
 }

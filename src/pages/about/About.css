@@ -1,14 +1,14 @@
 /*---------- # About -----------------------------------------*/
 #about h2{
-  background-color: #777;
-  color: #fff;
+	background-color: #777;
+	color: #fff;
 }
 #about-intro{
-  padding-top: 8px;
-  font-family: '3_thehard_way_rmxfenotype';
-  text-align: center;
-  font-size: 18pt;
-  line-height: 2;
+	padding-top: 8px;
+	font-family: '3_thehard_way_rmxfenotype';
+	text-align: center;
+	font-size: 18pt;
+	line-height: 2;
 }
 #walnut-image{
 	display: inline-block;
@@ -21,6 +21,16 @@
 .toolbox-item{
 	flex: 1 1 calc(33.33% - 20px);
 	align-self: center;
-	padding: 10px;
+	padding: 30px 10px 10px 10px;
+	font-family: '3_thehard_way_rmxfenotype';
+  	font-size: 18pt;
+  	line-height: 2;
 	font-weight: 700;
+}
+/* Desktop CSS */
+@media(min-width:700px){
+.toolbox-item{
+	padding: 70px 30px 30px 30px;
+  	font-size: 24pt;
+}
 }

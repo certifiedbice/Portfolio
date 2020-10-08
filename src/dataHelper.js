@@ -59,7 +59,7 @@ const skills=[
 const web=[
 	{
 		title:'felonydiscrimination.org',
-		description:'Combating the rampant discrimination against persons with a felony history.',
+		description:'Combating the rampant discrimination against persons with a felony history. This app provides a service to catalog, rate, and comment on companies and organizations in the areas of housing and employment that discriminate soley on the basis of a person having a felony in their background.',
 		status:'Live beta testing',
 		stack:[
 			'HTML5',
@@ -86,39 +86,39 @@ const web=[
 		link:'http://felonydiscrimination.org.jpg',
 		image:'felonydiscrimination.org.png'
 	},
-	{
-		title:'evaluable.net',
-		description:'Improving hiring practices and job hunting with tools and accountability.',
-		status:'Under Development',
-		stack:[
-			'HTML5',
-			'CSS',
-			'Javascript',
-			'React',
-			'Node',
-			'MySQL',
-			'Express',
-			'JSON',
-			'JWT',
-			'OAuth',
-			'Knex',
-			'Cors',
-			'Dotenv',
-			'Morgan',
-			'Helmet',
-			'XSS',
-			'Mocha',
-			'Chai',
-			'Enzyme',
-			'Jest',
-			'Supertest'
-		],
-		link:'http://evaluable.net',
-		image:'evaluable.net.png'
-	},
+	// {
+	// 	title:'evaluable.net',
+	// 	description:'Improving hiring practices and job hunting with tools and accountability.',
+	// 	status:'Under Development',
+	// 	stack:[
+	// 		'HTML5',
+	// 		'CSS',
+	// 		'Javascript',
+	// 		'React',
+	// 		'Node',
+	// 		'MySQL',
+	// 		'Express',
+	// 		'JSON',
+	// 		'JWT',
+	// 		'OAuth',
+	// 		'Knex',
+	// 		'Cors',
+	// 		'Dotenv',
+	// 		'Morgan',
+	// 		'Helmet',
+	// 		'XSS',
+	// 		'Mocha',
+	// 		'Chai',
+	// 		'Enzyme',
+	// 		'Jest',
+	// 		'Supertest'
+	// 	],
+	// 	link:'http://evaluable.net',
+	// 	image:'evaluable.net.png'
+	// },
 	{
 		title:'camasforcannabis.com',
-		description:'Camas For Cannabis Access, Initiative Measure No. 1',
+		description:'Camas For Cannabis Access, Initiative Measure No. 1. The app was built to serve as a resource to the organization so they could provide useful information to help people in Camas make an informed decision when voting on this ballot measure.',
 		status:'Live',
 		stack:[
 			'HTML5',
@@ -130,21 +130,21 @@ const web=[
 		link:'http://camasforcannabis.com',
 		image:'camasforcannabis.com.png'
 	},
-	{
-		title:'honeybroux.com',
-		description:'Southern Louisiana’s first Meadery.',
-		status:'Under Development',
-		stack:[
-			'HTML5',
-			'CSS',
-			'Javascript'
-		],
-		link:'http://honeybroux.com',
-		image:'honeybroux.com.png'
-	},
+	// {
+	// 	title:'honeybroux.com',
+	// 	description:'Southern Louisiana’s first Meadery.',
+	// 	status:'Under Development',
+	// 	stack:[
+	// 		'HTML5',
+	// 		'CSS',
+	// 		'Javascript'
+	// 	],
+	// 	link:'http://honeybroux.com',
+	// 	image:'honeybroux.com.png'
+	// },
 	{
 		title:'certifiedbice.com',
-		description:'The platform, incubator, and launchpad of Bice.',
+		description:'The platform, incubator, and launchpad of Bice. This serves as an online presence for my entreprenurial endeavors.',
 		status:'Under Development',
 		stack:[
 			'HTML5',
@@ -156,7 +156,7 @@ const web=[
 	},
 	{
 		title:'bice.blog',
-		description:'The blog of Bice.',
+		description:'The blog of Bice. A basic WordPress in which I am blogging when I have time.',
 		status:'Live',
 		stack:[
 			'HTML5',
@@ -170,7 +170,7 @@ const web=[
 	},
 	{
 		title:'bice.rocks',
-		description:'The professional portfolio of Bice.',
+		description:'The professional portfolio of Bice. I built this for the purpose of showcasing my various talents and skills.',
 		status:'Live',
 		stack:[
 			'HTML5',
@@ -185,7 +185,7 @@ const web=[
 	},
 	{
 		title:'Sudoku',
-		description:'Vanilla Javascript Sudoku Generator.',
+		description:'Vanilla Javascript Sudoku Generator. Originally built with no internet access and no resources or research material other than a basic JavaScript reference manual. I built the algorithm from scratch, I was forced to record my fully function code onto notebook paper and am in the process of re-typing and fixing the errors from documenting it in that fashion and hope to have this up very soon.',
 		status:'Under Development',
 		stack:[
 			'HTML5',
@@ -197,7 +197,7 @@ const web=[
 	},
 	{
 		title:'Petful Pet Adoption App',
-		description:'FIFO pet adoption app for demonstration purposes.',
+		description:'FIFO pet adoption app for demonstration purposes. A paired exercise completed by a <team member> and myself, this is a functional demonstration of a queued system that is first-in, first-out.',
 		status:'Live Demo',
 		stack:[
 			'HTML5',
@@ -214,7 +214,7 @@ const web=[
 	},
 	{
 		title:'Spaced Repetition Language Learning App',
-		description:'Singly linked list spaced repetition learning app for demonstration purposes.',
+		description:'Singly linked list spaced repetition learning app for demonstration purposes. This was a paired project in which I worked closely with a team member to create this app. Although a variety of difficulties arose around this project we were able to complete a fully functional product.',
 		status:'Live Demo',
 		stack:[
 			'HTML5',
@@ -231,7 +231,7 @@ const web=[
 	},
 	{
 		title:'BuddyUp',
-		description:'An app for making friends',
+		description:'An app for making friends. This was a 5 man team effort, myself and another team member completed the backend system. While the other 3 completed the frontend. I was personally responsible for the initial boilerplate API, the user authentication system, and all backend testing.',
 		status:'Live Demo',
 		stack:[
 			'HTML5',
@@ -248,7 +248,7 @@ const web=[
 	},
 	{
 		title:'Code Examples',
-		description:'Various code example work for demonstration purposes.',
+		description:'Various code examples of my work for demonstration purposes.',
 		status:'Under Development',
 		stack:[
 			'HTML5',

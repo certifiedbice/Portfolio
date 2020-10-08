@@ -35,6 +35,17 @@ export default class Portfolio extends Component{
 													<img src={require(`../../images/galleries/web/${item.image}`)} alt={item.title}/>
 												</a>
 												<h3>{item.title}</h3>
+												<div className='item-status'><span>Status:</span> {item.status}</div>
+												<div className='item-stack'>
+													<div className='item-stack-title'>Stack: </div>
+													{
+														item.stack.map(item=>{
+															return(
+																<div key={item} className='item-stack-item'>{item},</div>
+															);
+														})
+													}
+												</div>
 												<div className='item-description'>{item.description}</div>
 											</div>
 										);

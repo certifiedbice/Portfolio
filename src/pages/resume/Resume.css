@@ -5,6 +5,13 @@ main{
 	padding: 10px;
 	text-align: left;
 }
+/* Desktop CSS */
+@media(min-width:700px){
+.resume-item{
+	padding: 40px;
+	text-align: left;
+}
+}
 .resume-head{
 	text-align: center;
 }

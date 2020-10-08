@@ -44,31 +44,147 @@ Array [
             felonydiscrimination.org
           </h3>
           <div
-            className="item-description"
+            className="item-status"
           >
-            Combating the rampant discrimination against persons with a felony history.
+            <span>
+              Status:
+            </span>
+             
+            Live beta testing
           </div>
-        </div>
-        <div
-          className="item gallery"
-        >
-          <a
-            href="http://evaluable.net"
-            rel="noopener noreferrer"
-            target="_blank"
+          <div
+            className="item-stack"
           >
-            <img
-              alt="evaluable.net"
-              src="evaluable.net.png"
-            />
-          </a>
-          <h3>
-            evaluable.net
-          </h3>
+            <div
+              className="item-stack-title"
+            >
+              Stack: 
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              HTML5
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              CSS
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Javascript
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              React
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Node
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              PostgreSQL
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Express
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              JSON
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              JWT
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Knex
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Cors
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Dotenv
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Morgan
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Helmet
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              XSS
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Mocha
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Chai
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Enzyme
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Jest
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Supertest
+              ,
+            </div>
+          </div>
           <div
             className="item-description"
           >
-            Improving hiring practices and job hunting with tools and accountability.
+            Combating the rampant discrimination against persons with a felony history. This app provides a service to catalog, rate, and comment on companies and organizations in the areas of housing and employment that discriminate soley on the basis of a person having a felony in their background.
           </div>
         </div>
         <div
@@ -88,31 +204,57 @@ Array [
             camasforcannabis.com
           </h3>
           <div
-            className="item-description"
+            className="item-status"
           >
-            Camas For Cannabis Access, Initiative Measure No. 1
+            <span>
+              Status:
+            </span>
+             
+            Live
           </div>
-        </div>
-        <div
-          className="item gallery"
-        >
-          <a
-            href="http://honeybroux.com"
-            rel="noopener noreferrer"
-            target="_blank"
+          <div
+            className="item-stack"
           >
-            <img
-              alt="honeybroux.com"
-              src="honeybroux.com.png"
-            />
-          </a>
-          <h3>
-            honeybroux.com
-          </h3>
+            <div
+              className="item-stack-title"
+            >
+              Stack: 
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              HTML5
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              CSS
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Javascript
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              PHP
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              WordPress
+              ,
+            </div>
+          </div>
           <div
             className="item-description"
           >
-            Southern Louisiana’s first Meadery.
+            Camas For Cannabis Access, Initiative Measure No. 1. The app was built to serve as a resource to the organization so they could provide useful information to help people in Camas make an informed decision when voting on this ballot measure.
           </div>
         </div>
         <div
@@ -132,9 +274,45 @@ Array [
             certifiedbice.com
           </h3>
           <div
+            className="item-status"
+          >
+            <span>
+              Status:
+            </span>
+             
+            Under Development
+          </div>
+          <div
+            className="item-stack"
+          >
+            <div
+              className="item-stack-title"
+            >
+              Stack: 
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              HTML5
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              CSS
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Javascript
+              ,
+            </div>
+          </div>
+          <div
             className="item-description"
           >
-            The platform, incubator, and launchpad of Bice.
+            The platform, incubator, and launchpad of Bice. This serves as an online presence for my entreprenurial endeavors.
           </div>
         </div>
         <div
@@ -154,9 +332,57 @@ Array [
             bice.blog
           </h3>
           <div
+            className="item-status"
+          >
+            <span>
+              Status:
+            </span>
+             
+            Live
+          </div>
+          <div
+            className="item-stack"
+          >
+            <div
+              className="item-stack-title"
+            >
+              Stack: 
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              HTML5
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              CSS
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Javascript
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              PHP
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              WordPress
+              ,
+            </div>
+          </div>
+          <div
             className="item-description"
           >
-            The blog of Bice.
+            The blog of Bice. A basic WordPress in which I am blogging when I have time.
           </div>
         </div>
         <div
@@ -176,9 +402,63 @@ Array [
             bice.rocks
           </h3>
           <div
+            className="item-status"
+          >
+            <span>
+              Status:
+            </span>
+             
+            Live
+          </div>
+          <div
+            className="item-stack"
+          >
+            <div
+              className="item-stack-title"
+            >
+              Stack: 
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              HTML5
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              CSS
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Javascript
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              React
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Enzyme
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Jest
+              ,
+            </div>
+          </div>
+          <div
             className="item-description"
           >
-            The professional portfolio of Bice.
+            The professional portfolio of Bice. I built this for the purpose of showcasing my various talents and skills.
           </div>
         </div>
         <div
@@ -198,9 +478,45 @@ Array [
             Sudoku
           </h3>
           <div
+            className="item-status"
+          >
+            <span>
+              Status:
+            </span>
+             
+            Under Development
+          </div>
+          <div
+            className="item-stack"
+          >
+            <div
+              className="item-stack-title"
+            >
+              Stack: 
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              HTML5
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              CSS
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Javascript
+              ,
+            </div>
+          </div>
+          <div
             className="item-description"
           >
-            Vanilla Javascript Sudoku Generator.
+            Vanilla Javascript Sudoku Generator. Originally built with no internet access and no resources or research material other than a basic JavaScript reference manual. I built the algorithm from scratch, I was forced to record my fully function code onto notebook paper and am in the process of re-typing and fixing the errors from documenting it in that fashion and hope to have this up very soon.
           </div>
         </div>
         <div
@@ -220,9 +536,75 @@ Array [
             Petful Pet Adoption App
           </h3>
           <div
+            className="item-status"
+          >
+            <span>
+              Status:
+            </span>
+             
+            Live Demo
+          </div>
+          <div
+            className="item-stack"
+          >
+            <div
+              className="item-stack-title"
+            >
+              Stack: 
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              HTML5
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              CSS
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Javascript
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Reactjs
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Nodejs
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              PostgreSQL
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Heroku
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Vercel
+              ,
+            </div>
+          </div>
+          <div
             className="item-description"
           >
-            FIFO pet adoption app for demonstration purposes.
+            FIFO pet adoption app for demonstration purposes. A paired exercise completed by a &lt;team member&gt; and myself, this is a functional demonstration of a queued system that is first-in, first-out.
           </div>
         </div>
         <div
@@ -242,9 +624,163 @@ Array [
             Spaced Repetition Language Learning App
           </h3>
           <div
+            className="item-status"
+          >
+            <span>
+              Status:
+            </span>
+             
+            Live Demo
+          </div>
+          <div
+            className="item-stack"
+          >
+            <div
+              className="item-stack-title"
+            >
+              Stack: 
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              HTML5
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              CSS
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Javascript
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Reactjs
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Nodejs
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              PostgreSQL
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Heroku
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Vercel
+              ,
+            </div>
+          </div>
+          <div
             className="item-description"
           >
-            Singly linked list spaced repetition learning app for demonstration purposes.
+            Singly linked list spaced repetition learning app for demonstration purposes. This was a paired project in which I worked closely with a team member to create this app. Although a variety of difficulties arose around this project we were able to complete a fully functional product.
+          </div>
+        </div>
+        <div
+          className="item gallery"
+        >
+          <a
+            href="https://buddyup-client.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="BuddyUp"
+              src="buddyup.png"
+            />
+          </a>
+          <h3>
+            BuddyUp
+          </h3>
+          <div
+            className="item-status"
+          >
+            <span>
+              Status:
+            </span>
+             
+            Live Demo
+          </div>
+          <div
+            className="item-stack"
+          >
+            <div
+              className="item-stack-title"
+            >
+              Stack: 
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              HTML5
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              CSS
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Javascript
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Reactjs
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Nodejs
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              PostgreSQL
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Heroku
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Vercel
+              ,
+            </div>
+          </div>
+          <div
+            className="item-description"
+          >
+            An app for making friends. This was a 5 man team effort, myself and another team member completed the backend system. While the other 3 completed the frontend. I was personally responsible for the initial boilerplate API, the user authentication system, and all backend testing.
           </div>
         </div>
         <div
@@ -264,9 +800,45 @@ Array [
             Code Examples
           </h3>
           <div
+            className="item-status"
+          >
+            <span>
+              Status:
+            </span>
+             
+            Under Development
+          </div>
+          <div
+            className="item-stack"
+          >
+            <div
+              className="item-stack-title"
+            >
+              Stack: 
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              HTML5
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              CSS
+              ,
+            </div>
+            <div
+              className="item-stack-item"
+            >
+              Javascript
+              ,
+            </div>
+          </div>
+          <div
             className="item-description"
           >
-            Various code example work for demonstration purposes.
+            Various code examples of my work for demonstration purposes.
           </div>
         </div>
       </div>
