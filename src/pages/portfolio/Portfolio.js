@@ -46,6 +46,21 @@ export default class Portfolio extends Component{
 														})
 													}
 												</div>
+												<div className='item-links'>
+													<div className='item-links-title'>Additional Links: </div>
+													{	
+															item.additionalLinks.map(link=>{
+																if(link!==null){
+																	return(
+																		<div key={link} className='item-link'>
+																			<a href={link}>{link}</a>
+																		</div>
+																	);
+																}
+																else{return null;}
+															})	
+													}
+												</div>
 												<div className='item-description'>{item.description}</div>
 											</div>
 										);

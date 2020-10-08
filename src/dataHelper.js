@@ -83,7 +83,8 @@ const web=[
 			'Jest',
 			'Supertest'
 		],
-		link:'http://felonydiscrimination.org.jpg',
+		link:'http://felonydiscrimination.org',
+		additionalLinks:[null],
 		image:'felonydiscrimination.org.png'
 	},
 	// {
@@ -128,6 +129,7 @@ const web=[
 			'WordPress'
 		],
 		link:'http://camasforcannabis.com',
+		additionalLinks:[null],
 		image:'camasforcannabis.com.png'
 	},
 	// {
@@ -152,6 +154,7 @@ const web=[
 			'Javascript'
 		],
 		link:'http://certifiedbice.com',
+		additionalLinks:[null],
 		image:'certifiedbice.com.png'
 	},
 	{
@@ -166,6 +169,7 @@ const web=[
 			'WordPress'
 		],
 		link:'http://bice.blog',
+		additionalLinks:[null],
 		image:'bice.blog.png'
 	},
 	{
@@ -181,6 +185,9 @@ const web=[
 			'Jest'
 		],
 		link:'http://bice.rocks',
+		additionalLinks:[
+			'https://github.com/certifiedbice/portfolio'
+		],
 		image:'bice.rocks.png'
 	},
 	{
@@ -192,7 +199,10 @@ const web=[
 			'CSS',
 			'Javascript'
 		],
-		link:'https://github.com/certifiedbice/Sudoku',
+		link:'http:sudoku.bice.rocks',
+		additionalLinks:[
+			'https://github.com/certifiedbice/Sudoku'
+		],
 		image:'sudoku.bice.rocks.png'
 	},
 	{
@@ -209,7 +219,11 @@ const web=[
 			'Heroku',
 			'Vercel'
 		],
-		link:'https://github.com/certifiedbice/petful-client',
+		link:'https://petful-bice.vercel.app',
+		additionalLinks:[
+			'https://github.com/certifiedbice/petful-client',
+			'https://github.com/certifiedbice/petful-api'
+		],
 		image:'petful.png'
 	},
 	{
@@ -226,7 +240,11 @@ const web=[
 			'Heroku',
 			'Vercel'
 		],
-		link:'https://github.com/certifiedbice/spaced-repetition-client',
+		link:'https://spaced-repetition-psi.vercel.app',
+		additionalLinks:[
+			'https://github.com/certifiedbice/spaced-repetition-client',
+			'https://github.com/certifiedbice/spaced-repetition-api'
+		],
 		image:'spaced-repetition.png'
 	},
 	{
@@ -244,6 +262,10 @@ const web=[
 			'Vercel'
 		],
 		link:'https://buddyup-client.vercel.app/',
+		additionalLinks:[
+			'https://github.com/thinkful-ei-panda/buddyup-client',
+			'https://github.com/thinkful-ei-panda/buddyup-api'
+		],
 		image:'buddyup.png'
 	},
 	{
@@ -256,6 +278,7 @@ const web=[
 			'Javascript'
 		],
 		link:'http://code-examples.bice.rocks',
+		additionalLinks:[null],
 		image:'code-examples.bice.rocks.png'
 	},
 	

@@ -26,6 +26,27 @@
 .item-stack-item{
 	margin: 5px;
 }
+.item-links{
+	margin: 5px;
+}
+.item-links-title{
+	font-weight: 700;
+}
+.item-link{
+	margin: 10px;
+}
+.item-link a{
+	color: #000;
+}
+.item-link a:visited{
+	color: #000;
+}
+.item-link a:active{
+	color: #000;
+}
+.item-link a:hover{
+	color: #555;
+}
 .item-description{
 	line-height: 2;
 }
