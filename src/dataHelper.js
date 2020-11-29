@@ -199,7 +199,7 @@ const web=[
 			'CSS',
 			'Javascript'
 		],
-		link:'http:sudoku.bice.rocks',
+		link:'http://sudoku.bice.rocks',
 		additionalLinks:[
 			'https://github.com/certifiedbice/Sudoku'
 		],

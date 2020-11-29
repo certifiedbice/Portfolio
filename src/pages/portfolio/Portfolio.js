@@ -48,7 +48,7 @@ export default class Portfolio extends Component{
 												</div>
 												<div className='item-links'>
 													<div className='item-links-title'>Additional Links: </div>
-													{	
+													{	//write something to account for the empty ^^
 															item.additionalLinks.map(link=>{
 																if(link!==null){
 																	return(
