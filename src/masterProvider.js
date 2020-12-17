@@ -1,11 +1,13 @@
 import React,{Component} from 'react';
+import DataHelper from './dataHelper';
 
 const Context=React.createContext({
 	bgInt:()=>{},
     pageFade:()=>{},
 	verticalPadAndScroll:()=>{},
 	emailLinkBlink:()=>{},
-	contactFade:()=>{}
+	contactFade:()=>{},
+	randomLandingImage:()=>{}
 });
 
 export default Context;
@@ -133,13 +135,21 @@ export class MasterProvider extends Component{
 			}
 		}
 	}
+	randomLandingImage=()=>{
+		const landingImages=DataHelper.landingImages;
+		//choose and return a landing image.
+		let min=Math.ceil(0);
+		let max=Math.floor(landingImages.length);
+		return landingImages[Math.floor(Math.random()*(max-min))+min];
+	}
 	render() {
 		const value={
 			bgInt:this.bgInt,
 			pageFade:this.pageFade,
 			verticalPadAndScroll:this.verticalPadAndScroll,
 			emailLinkBlink:this.emailLinkBlink,
-			contactFade:this.contactFade
+			contactFade:this.contactFade,
+			randomLandingImage:this.randomLandingImage
 		};
 		return (
 			<Context.Provider value={value}>

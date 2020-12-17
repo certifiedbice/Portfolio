@@ -158,8 +158,8 @@ const web=[
 		image:'certifiedbice.com.png'
 	},
 	{
-		title:'bice.blog',
-		description:'The blog of Bice. A basic WordPress in which I am blogging when I have time.',
+		title:'blog.bice.rocks',
+		description:'The blog of Bice. A basic WordPress in which I am blogging when I have time. I hope to execute some UI work soon.',
 		status:'Live',
 		stack:[
 			'HTML5',
@@ -168,9 +168,9 @@ const web=[
 			'PHP',
 			'WordPress'
 		],
-		link:'http://bice.blog',
+		link:'http://blog.bice.rocks',
 		additionalLinks:[null],
-		image:'bice.blog.png'
+		image:'blog.bice.rocks.png'
 	},
 	{
 		title:'bice.rocks',
@@ -192,11 +192,11 @@ const web=[
 	},
 	{
 		title:'Sudoku',
-		description:'Vanilla Javascript Sudoku Generator. Originally built with no internet access and no resources or research material other than a basic JavaScript reference manual. I built the algorithm from scratch, I was forced to record my fully function code onto notebook paper and am in the process of re-typing and fixing the errors from documenting it in that fashion and hope to have this up very soon.',
-		status:'Under Development',
+		description:'Vanilla Javascript Sudoku Generator. Originally built with no internet access and no resources or research material other than a basic JavaScript reference manual.',
+		status:'Ongoing Development',
 		stack:[
 			'HTML5',
-			'CSS',
+			'CSS3',
 			'Javascript'
 		],
 		link:'http://sudoku.bice.rocks',
@@ -303,6 +303,12 @@ const art=[
 		image:'fuegon-commercial.jpg'
 	},
 	{	
+		title:'Mountain Breath Didgeridoo Logo',
+		description:'Preliminary logo Design using Illustrator.',
+		link:null,
+		image:'mbd-logo-white-on-black.jpg'
+	},
+	{	
 		title:'Hang in there baby',
 		description:'Digital illustration using Photoshop & Illustrator.',
 		link:null,
@@ -378,9 +384,21 @@ const social=[
 	// ?? What other accounts
 ];
 
+const landingImages=[
+	{
+		link:"grunge-portrait.png",
+		alt:"No Excuses, Get Results, Die Trying."
+	},
+	{
+		link:"clown-portrait.png",
+		alt:"Quit Clowning Around."
+	},
+];
+
 module.exports={
 	skills,
 	web,
 	art,
 	social,
+	landingImages
 }

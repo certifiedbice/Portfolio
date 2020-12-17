@@ -14,11 +14,16 @@ export default class Landing extends Component{
 		body.addEventListener('click',function(){forwardToHome();},false);
 	}
 	render(){
+		// Landing image object containing filename and alt info, passed by dataHelper and masterProvider.
+		const landingImage=require(`../../images/ui/${this.context.randomLandingImage().link}`);
+		const landingImageAlt=this.context.randomLandingImage().alt;
 		return(
 			<>
 				<Background/>
 				<div id='landing-container'>
-					<div id='portrait-overlay'></div>
+					<div id='portrait-overlay'>
+						<img src={landingImage} id='portrait-img' alt={landingImageAlt}/>
+					</div>
 					<div id='landing-message'>Uncompromisingly different</div>
 					<div id='proceed-message'>Click or tap somewhere...</div>
 				</div>

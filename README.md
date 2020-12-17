@@ -6,6 +6,12 @@ The professional portfolio of Bice.
 
 ![Bice.rocks Logo](http://bice.rocks/bice.rocks-og-preview.png)
 
+**Planned Updates**
+- Gallery updates to include WordPress style multiple image galleries for each work.
+- Artwork purchase feature.
+- Landing page random image/background combinations.
+- My various dev statistics included on the resume page.
+
 ## Live Site:
 ### http://bice.rocks
 
