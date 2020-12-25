@@ -61,7 +61,7 @@ export default class Landing extends Component{
 						<img src={image} id='portrait-img' alt={text}/>
 					</div>
 					<div id='landing-message'>{text}</div>
-					<div id='proceed-message'>Click or tap somewhere...</div>
+					<div id='proceed-message'>Click or tap somewhere to continue.<br/>Or refresh for a different flavor.</div>
 				</div>
 				<Fade location={this.props.location.pathname}/>
 			</>
