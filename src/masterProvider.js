@@ -2,22 +2,35 @@ import React,{Component} from 'react';
 import DataHelper from './dataHelper';
 
 const Context=React.createContext({
+	cookies:null,
+	currentCookie:null,
+	landingImage:null,
+	landingText:null,
 	bgInt:()=>{},
     pageFade:()=>{},
 	verticalPadAndScroll:()=>{},
 	emailLinkBlink:()=>{},
 	contactFade:()=>{},
-	randomLandingImage:()=>{}
+	randomLandingInfo:()=>{},
+	checkCookie:()=>{},
+	setCookieInBrowser:()=>{},
+	setCurrentCookieInState:()=>{},
 });
 
 export default Context;
 
 export class MasterProvider extends Component{
-	constructor(props){
-		super(props);
-		const state={};
-		this.state=state;
-	}
+	// constructor(){
+		// super();
+		state={
+			cookies:document.cookie.split(';'),
+			currentCookie:null,
+			landingImage:null,
+			landingText:null
+		}
+		// this.state=state;
+	// }
+	
   	bgInt=x=>{
 		// Variables, interval, and function to move background image.
 		const el=document.querySelector('#background-image');
@@ -135,21 +148,63 @@ export class MasterProvider extends Component{
 			}
 		}
 	}
-	randomLandingImage=()=>{
-		const landingImages=DataHelper.landingImages;
+	randomLandingInfo=()=>{
+		const landingInfoArray=DataHelper.landingInfo;
 		//choose and return a landing image.
 		let min=Math.ceil(0);
-		let max=Math.floor(landingImages.length);
-		return landingImages[Math.floor(Math.random()*(max-min))+min];
+		let max=Math.floor(landingInfoArray.length);
+		let landingInfo=landingInfoArray[Math.floor(Math.random()*(max-min))+min];
+		// Set the info in state for the render.
+		this.setState({
+			landingImage:landingInfo.image,
+			landingText:landingInfo.text
+		});
+		return landingInfo;
+	}
+	// Cookies only being utilized for setting the landing image and text.
+	checkCookie=name=>{
+		console.log('Checking for cookie.');
+		// Account for render-check for null value of this.state.cookies.
+		if(this.state.cookies!==null){
+			// Run the check.
+			for(let i=0;i<this.state.cookies.length;i++){
+				let nameValuePair=this.state.cookies[i].split('=');
+				if(name===nameValuePair[0].trim()){
+					// Cookie found, return true and cookie value.
+					return [true,this.state.cookies[i].trim()];
+				}
+			}
+			// Cookie not found.
+			return false;
+		}
+	}
+	setCookieInBrowser=(name,value)=>{
+		console.log('Setting cookie in browser.');
+		let cookie=`${name}=${encodeURIComponent(value)}`;
+		document.cookie=cookie;
+		// Verify cookie was set successfully, backlog.
+		return true;
+	}
+	setCurrentCookieInState=cookie=>{
+		console.log('Setting cookie in state.');
+		this.setState({currentCookie:cookie});
+		return cookie;
 	}
 	render() {
 		const value={
+			cookies:this.state.cookies,
+			currentCookie:this.state.currentCookie,
+			landingImage:this.state.landingImage,
+			landingText:this.state.landingText,
 			bgInt:this.bgInt,
 			pageFade:this.pageFade,
 			verticalPadAndScroll:this.verticalPadAndScroll,
 			emailLinkBlink:this.emailLinkBlink,
 			contactFade:this.contactFade,
-			randomLandingImage:this.randomLandingImage
+			randomLandingInfo:this.randomLandingInfo,
+			checkCookie:this.checkCookie,
+			setCookieInBrowser:this.setCookieInBrowser,
+			setCurrentCookieInState:this.setCurrentCookieInState,
 		};
 		return (
 			<Context.Provider value={value}>

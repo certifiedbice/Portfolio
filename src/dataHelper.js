@@ -384,15 +384,20 @@ const social=[
 	// ?? What other accounts
 ];
 
-const landingImages=[
+const landingInfo=[
 	{
-		link:"grunge-portrait.png",
-		alt:"No Excuses, Get Results, Die Trying."
+		image:'grunge-portrait.png',
+		text:'No Excuses, Get Results, Die Trying.'
 	},
 	{
-		link:"clown-portrait.png",
-		alt:"Quit Clowning Around."
+		image:'clown-portrait.png',
+		text:'Quit Clowning Around.'
 	},
+	{
+		image:'ninja-portrait.png',
+		text:'Once you have lived in the shadows, the light is never as bright.'
+	},
+	// Uncompromisingly different
 ];
 
 module.exports={
@@ -400,5 +405,5 @@ module.exports={
 	web,
 	art,
 	social,
-	landingImages
+	landingInfo
 }

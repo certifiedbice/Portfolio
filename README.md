@@ -9,7 +9,9 @@ The professional portfolio of Bice.
 **Planned Updates**
 - Gallery updates to include WordPress style multiple image galleries for each work.
 - Artwork purchase feature.
-- Landing page random image/background combinations.
+- Landing page random image/background combinations "partially implemented".
+- would like to randomize the landingInfo better, many refreshes can result in swapping 2 images and never a third, fourth etc.
+- cookieSet verification.
 - My various dev statistics included on the resume page.
 
 ## Live Site:
