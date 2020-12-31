@@ -8,35 +8,34 @@ export default class Landing extends Component{
 	componentDidMount(){
 		let cookie=this.context.checkCookie('landingInfoCookie');
 		// let currentCookie;
-		let landingInfo;
+		let landingInfo=this.context.randomLandingInfo();
 		// Check for cookie.
 		if(cookie){
-			console.log('Cookie Found');
-			console.log(`Cookie = ${cookie[1]}`);
-
+			// console.log('Cookie Found');
+			// console.log(`Cookie = ${cookie[1]}`);
 			// Set the current cookie in state, in the form of an array for easier processing.
 			// Variable declaration neccessary to prevent state/context race condition while setting state.
 			let currentCookie=this.context.setCurrentCookieInState(cookie[1].split('='));
-			console.log(`(this.state.currentCookie=) currentCookie = ${currentCookie}`);
-			
+			// console.log(`(this.state.currentCookie=) currentCookie = ${currentCookie}`);
 			// Get a random set of landingInfo.
 			landingInfo=this.context.randomLandingInfo();
-			console.log(`landingInfo = `,landingInfo);
-
+			// console.log(`landingInfo = `,landingInfo);
 			// Check if the random landingInfo.image matches the currentCookie.
 			if(landingInfo.image===currentCookie[1]){
-				console.log('Match');
+				// console.log('Match');
 				while(landingInfo.image===currentCookie[1]){
 					// Select new random landingInfo.
 					landingInfo=this.context.randomLandingInfo();
-					console.log(`New landingInfo = `,landingInfo);
+					// console.log(`New landingInfo = `,landingInfo);
 				}
 			}
 		}
-
+		// else{
+		// 	console.log('Cookie Not Found');
+		// }
 		// Set new cookie in browser.
 		let cookieSet=this.context.setCookieInBrowser('landingInfoCookie',landingInfo.image);
-		console.log(`cookieSet = ${cookieSet}`);
+		// console.log(`cookieSet = ${cookieSet}`);
 
 		// Handle change to the home screen.
 		const forwardToHome=()=>{

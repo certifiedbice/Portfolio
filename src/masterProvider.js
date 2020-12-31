@@ -20,16 +20,12 @@ const Context=React.createContext({
 export default Context;
 
 export class MasterProvider extends Component{
-	// constructor(){
-		// super();
-		state={
-			cookies:document.cookie.split(';'),
-			currentCookie:null,
-			landingImage:null,
-			landingText:null
-		}
-		// this.state=state;
-	// }
+	state={
+		cookies:document.cookie.split(';'),
+		currentCookie:null,
+		landingImage:null,
+		landingText:null
+	}
 	
   	bgInt=x=>{
 		// Variables, interval, and function to move background image.
@@ -163,7 +159,7 @@ export class MasterProvider extends Component{
 	}
 	// Cookies only being utilized for setting the landing image and text.
 	checkCookie=name=>{
-		console.log('Checking for cookie.');
+		// console.log('Checking for cookie.');
 		// Account for render-check for null value of this.state.cookies.
 		if(this.state.cookies!==null){
 			// Run the check.
@@ -179,14 +175,14 @@ export class MasterProvider extends Component{
 		}
 	}
 	setCookieInBrowser=(name,value)=>{
-		console.log('Setting cookie in browser.');
+		// console.log('Setting cookie in browser.');
 		let cookie=`${name}=${encodeURIComponent(value)}`;
 		document.cookie=cookie;
 		// Verify cookie was set successfully, backlog.
 		return true;
 	}
 	setCurrentCookieInState=cookie=>{
-		console.log('Setting cookie in state.');
+		// console.log('Setting cookie in state.');
 		this.setState({currentCookie:cookie});
 		return cookie;
 	}

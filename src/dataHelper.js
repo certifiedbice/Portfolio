@@ -383,11 +383,10 @@ const social=[
 	// Freelancer
 	// ?? What other accounts
 ];
-
 const landingInfo=[
 	{
 		image:'grunge-portrait.png',
-		text:'No Excuses, Get Results, Die Trying.'
+		text:'Uncompromisingly different.'
 	},
 	{
 		image:'clown-portrait.png',
@@ -397,7 +396,14 @@ const landingInfo=[
 		image:'ninja-portrait.png',
 		text:'Once you have lived in the shadows, the light is never as bright.'
 	},
-	// Uncompromisingly different
+	{
+		image:'doctor-portrait.png',
+		text:'Operating on conditions, not under them.'
+	},
+	{
+		image:'judge-portrait.png',
+		text:'Be mindful of ye own judgements passed.'
+	},
 ];
 
 module.exports={
